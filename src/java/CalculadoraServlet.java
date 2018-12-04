@@ -30,13 +30,8 @@ public class CalculadoraServlet extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        try {
-            
-        } catch (Exception e) {
-            
-        }        
-        request.getRequestDispatcher("WEB-INF/front/calculadora.jsp");
+            throws ServletException, IOException {              
+        request.getRequestDispatcher("/WEB-INF/front/calculadora.jsp").forward(request, response);
     }
 
     /**
