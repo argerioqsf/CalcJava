@@ -36,6 +36,7 @@ public class CalculadoraServlet extends HttpServlet {
         } catch (Exception e) {
             
         }        
+        request.getRequestDispatcher("WEB-INF/front/calculadora.jsp");
     }
 
     /**
