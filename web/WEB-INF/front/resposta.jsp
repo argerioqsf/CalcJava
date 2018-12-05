@@ -1,6 +1,6 @@
 <%-- 
-    Document   : calculadora
-    Created on : 04/12/2018, 19:46:37
+    Document   : resposta
+    Created on : 04/12/2018, 21:19:57
     Author     : aluno
 --%>
 
@@ -19,15 +19,17 @@
             <h1 class="titulo">CalcMetinha</h1>
         </nav>
         <div class="container2"> 
-            <div class="box">
-                <h1 class="tituloCalc">Digite sua expressão</h1>
-                <form class="navbar-form navbar-left" role="search" method="GET" action="/Resposta">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="expressão" name="expressao">
+            <div class="box2">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Resultado</div>
+                    <div  class="panel-body">
+                    <%
+                     request.getAttribute("resultado");
+                    %>
                     </div>
-                    <button type="submit" class="btn btn-default">Calcular</button>
-                </form>
+                </div>
             </div>
         </div>
+        
     </body>
 </html>
