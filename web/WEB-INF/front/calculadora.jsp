@@ -21,7 +21,7 @@
         <div class="container2"> 
             <div class="box">
                 <h1 class="tituloCalc">Digite sua expressão</h1>
-                <form class="navbar-form navbar-left" role="search" method="GET" action="/Resposta">
+                <form class="navbar-form navbar-left" method="GET" action="/CalcJava/Resposta">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="expressão" name="expressao">
                     </div>

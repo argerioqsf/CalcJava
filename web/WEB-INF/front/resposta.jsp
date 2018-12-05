@@ -23,8 +23,8 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">Resultado</div>
                     <div  class="panel-body">
-                    <%
-                     request.getAttribute("resultado");
+                    <%=
+                     request.getAttribute("resultado")
                     %>
                     </div>
                 </div>
